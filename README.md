@@ -12,7 +12,6 @@
 ![](https://img.shields.io/static/v1?label=Library&message=Next.js&style=flat&logo=next.js&labelColor=22272E&color=316dca)
 ![](https://img.shields.io/static/v1?label=Tool&message=Docker&style=flat&logo=docker&labelColor=22272E&color=316dca)
 ![](https://img.shields.io/static/v1?label=Tool&message=Slack&style=flat&logo=slack&labelColor=22272E&color=316dca)
-![](https://img.shields.io/static/v1?label=Tool&message=Discord&style=flat&logo=discord&labelColor=22272E&color=316dca)
 ![](https://img.shields.io/static/v1?label=Cloud&message=GoogleCloud&style=flat&logo=google-cloud&labelColor=22272E&color=316dca)
 ![](https://img.shields.io/static/v1?label=Tool&message=Vercel&style=flat&logo=vercel&labelColor=22272E&color=316dca)
 
