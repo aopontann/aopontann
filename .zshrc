@@ -10,7 +10,15 @@ export NVM_DIR="$HOME/.nvm"
 nvm use "v22.3.0"
 
 # 環境変数 読み込み
-source .env
+# IFSは環境変数で区切り文字が設定される。
+# 区切り文字のデフォは改行、タブ、スペースなので、改行のみにしている。
+IFS=$'\n'
+for text in `cat .env`
+do
+  if [ ! "`echo $text | grep '#'`" ]; then
+    export "${text}"
+  fi
+done
 
 # カレントディレクトリ 表示
 PROMPT="%F{green}%n%f :%F{blue}%~%f"$'\n'"%# "
